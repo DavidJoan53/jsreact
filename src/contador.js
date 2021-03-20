@@ -1,19 +1,20 @@
 import react, { useState } from 'react'
 import PropTypes from 'prop-types'
 
-const Contador = ({propNum}) => {
+const Contador = ({name, propNum}) => {
     const [cuenta, setCuenta] = useState(propNum);
 
     return (
         <>
-        <p>HOLA SOY CONTADOR Fredy</p>
-        <h1>HOLA SOY FREDY</h1>
-        <h2>{cuenta}</h2>
-        <button onClick={( () => setCuenta(cuenta + 1))} > ¡Más!</button>
-        <button onClick={( () => setCuenta(cuenta - 1))} > ¡Menos!</button>
+        <h1>CONTADOR DE CLICKS</h1>
+        <p>Realizado por: {name}</p>
+        <h2>Click realizados</h2>
+        <p>{cuenta}</p>
+        <button onClick={( () => setCuenta(cuenta + 1))} > Sumar</button>
+        <button onClick={( () => setCuenta(cuenta - 1))} > Restar</button>
         <br/>
         <br/>
-        <button onClick={( () => setCuenta(propNum))} > ¡Reset!</button>
+        <button onClick={( () => setCuenta(propNum))} > Reiniciar</button>
        
         </>
     )
