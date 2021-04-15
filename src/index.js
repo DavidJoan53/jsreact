@@ -1,8 +1,8 @@
 //Joan David Suarez Rendon - 1828989
-import Contador from './contador'
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Operador from './components/operador'
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<Contador name="Joan Suarez" propNum={10} />, divRoot);
+ReactDOM.render(<Operador numUno={8} numDos={3} cadena="Joan Suarez" />, divRoot);
