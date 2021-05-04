@@ -1,8 +1,8 @@
-//Joan David Suarez Rendon - 1828989
+//Leonardo Bolaños García 1826808
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Operador from './components/operador'
+import { ManyCustomHooks } from './components/ManyCustomHooks';
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<Operador numUno={8} numDos={3} cadena="Joan Suarez" />, divRoot);
+ReactDOM.render(<ManyCustomHooks/>, divRoot);

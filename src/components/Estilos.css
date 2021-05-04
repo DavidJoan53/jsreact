@@ -1,0 +1,45 @@
+body {
+    padding: 70px;
+}
+
+.card{
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+.card-cont {
+    margin: auto;
+    display: flex;
+}
+
+.card-img-top{
+    background-color: white;
+}
+
+.card-title{
+    padding: 5px;
+    border-bottom: 1px solid black;
+
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+}
+
+.card-p{
+    width: 40%;
+    margin: auto;
+}
+
+.btn-div {
+    width: 320px;
+    display: flex;
+}
+
+.btn-container{
+    margin: auto;
+    display: flex;
+}
+
+.btn-container button {
+    margin: auto;
+}
